@@ -8,13 +8,15 @@ import Main from './components/Main'
 import TanStack from './components/TanStack'
 import UForm from './components/UForm'
 import CForm from './components/CForm'
+import UseRefComponent from './components/useRefComponent'
 
 
 function App() {
   return (
     <div>
     
-   <CForm/>
+   
+   <UseRefComponent />
 
 
     </div>
