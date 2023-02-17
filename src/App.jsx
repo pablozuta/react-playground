@@ -10,11 +10,13 @@ import UForm from './components/UForm'
 import CForm from './components/CForm'
 import UseRefComponent from './components/useRefComponent'
 import Dog from './components/GrandChildren/Dog'
+import SuspenseComp from './components/SuspenseComp'
 
 
 function App() {
   return (
     <div>
+     
     
    
     </div>
