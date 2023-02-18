@@ -11,13 +11,14 @@ import CForm from './components/CForm'
 import UseRefComponent from './components/useRefComponent'
 import Dog from './components/GrandChildren/Dog'
 import SuspenseComp from './components/SuspenseComp'
+import PropsDest from './components/PropsDest'
 
 
 function App() {
   return (
     <div>
      
-    
+    <PropsDest nombre="Pablo" edad="40"/>
    
     </div>
   )
