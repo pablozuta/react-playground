@@ -12,6 +12,7 @@ import UseRefComponent from './components/useRefComponent'
 import Dog from './components/GrandChildren/Dog'
 import SuspenseComp from './components/SuspenseComp'
 import PropsDest from './components/PropsDest'
+import ClassComp from './components/ClassComp'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <div>
      
     <PropsDest nombre="Pablo" edad="40"/>
+    <ClassComp />
    
     </div>
   )
