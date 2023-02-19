@@ -14,6 +14,7 @@ import SuspenseComp from './components/SuspenseComp'
 import PropsDest from './components/PropsDest'
 import ClassComp from './components/ClassComp'
 import Table from './components/Table'
+import Counter from './components/Counter'
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
     <PropsDest nombre="Pablo" edad="40"/>
     <ClassComp />
     <Table />
+    <Counter/>
+   
    
     </div>
   )
