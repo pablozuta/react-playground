@@ -15,6 +15,7 @@ import PropsDest from './components/PropsDest'
 import ClassComp from './components/ClassComp'
 import Table from './components/Table'
 import Counter from './components/Counter'
+import AxiosFetch from './components/AxiosFetch'
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
     <ClassComp />
     <Table />
     <Counter/>
+    <AxiosFetch />
+
+
    
    
     </div>
