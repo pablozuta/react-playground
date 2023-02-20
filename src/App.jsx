@@ -16,6 +16,7 @@ import ClassComp from './components/ClassComp'
 import Table from './components/Table'
 import Counter from './components/Counter'
 import AxiosFetch from './components/AxiosFetch'
+import ReactTable from './components/ReactTable'
 
 
 function App() {
@@ -23,10 +24,7 @@ function App() {
     <div>
      
     <PropsDest nombre="Pablo" edad="40"/>
-    <ClassComp />
-    <Table />
-    <Counter/>
-    <AxiosFetch />
+    <ReactTable />
 
 
    
