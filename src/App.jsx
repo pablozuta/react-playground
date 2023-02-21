@@ -17,6 +17,8 @@ import Table from './components/Table'
 import Counter from './components/Counter'
 import AxiosFetch from './components/AxiosFetch'
 import ReactTable from './components/ReactTable'
+import DisectingProps from './components/DisectingProps'
+import InnerStyle from './components/InnerStyle'
 
 
 function App() {
@@ -24,8 +26,8 @@ function App() {
     <div>
      
     <PropsDest nombre="Pablo" edad="40"/>
-    <ReactTable />
-
+    <DisectingProps/>
+     <InnerStyle/>
 
    
    
