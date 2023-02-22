@@ -1,11 +1,15 @@
 import {useState} from 'react'
 
+import Child1 from './Children/Child1'
+
 function ParentUseContext() {
     const [counter, setCounter] = useState(0)
   return (
-    <div>
-        <h1>{counter}</h1>
+    <div className='parent-drill'>
+        <h1>PARENT COMPONENT</h1>
         <button onClick={() => setCounter(counter + 1)}>ADD</button>
+        <h2>counter = {counter}</h2>
+      <Child1 counter={counter} />
     </div>
   )
 }
