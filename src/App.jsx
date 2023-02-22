@@ -21,6 +21,7 @@ import DisectingProps from './components/DisectingProps'
 import InnerStyle from './components/InnerStyle'
 import ParentDrill from './components/PropDrilling/ParentDrill'
 import ParentUseContext from './components/UseContext/ParentUseContext'
+import UseReducerComp from './components/UseReducerComp'
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
      
      <ParentDrill/>
      <ParentUseContext />
+
+     <UseReducerComp/>
 
    
    
