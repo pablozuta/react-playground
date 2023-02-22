@@ -20,6 +20,7 @@ import ReactTable from './components/ReactTable'
 import DisectingProps from './components/DisectingProps'
 import InnerStyle from './components/InnerStyle'
 import ParentDrill from './components/PropDrilling/ParentDrill'
+import ParentUseContext from './components/UseContext/ParentUseContext'
 
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
     <PropsDest nombre="Pablo" edad="40"/>
     <DisectingProps/>
      <InnerStyle/>
-     <h1>useContext HOOK</h1>
+     
      <ParentDrill/>
+     <ParentUseContext />
 
    
    
