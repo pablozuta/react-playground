@@ -22,20 +22,14 @@ import InnerStyle from './components/InnerStyle'
 import ParentDrill from './components/PropDrilling/ParentDrill'
 import ParentUseContext from './components/UseContext/ParentUseContext'
 import UseReducerComp from './components/UseReducerComp'
+import NavBar from './components/NavBar'
 
 
 function App() {
   return (
     <div>
-     
-    <PropsDest nombre="Pablo" edad="40"/>
-    <DisectingProps/>
-     <InnerStyle/>
-     
-     <ParentDrill/>
-     <ParentUseContext />
-
-     <UseReducerComp/>
+     <NavBar />
+    
 
    
    
