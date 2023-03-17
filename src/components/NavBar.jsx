@@ -1,5 +1,5 @@
 import Fetch from './Fetch';
-import Students from './Students'
+import RickAndMortyFetch from './RickAndMortyFetch'
 
 
 
@@ -9,13 +9,13 @@ function NavBar() {
     return (
         <div>
         <nav className='barra-de-navegacion'>
-            <Link to="/students">Students</Link>
+            <Link to="/rickandmortyfetch">Rick and Morty</Link>
 
             <Link to="/fetch">Fetch</Link>
 
         </nav>
             <Routes>
-                <Route path="/students" element={<Students />} />
+                <Route path="/rickandmortyfetch" element={<RickAndMortyFetch />} />
 
                 <Route path="/fetch" element={<Fetch />} />
             </Routes>
